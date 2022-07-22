@@ -1,4 +1,4 @@
-FROM python:bullseye
+FROM continuumio/miniconda3
 COPY requirements.txt ./
 COPY Work1.ipynb ./
 RUN sudo pip install -r requirements.txt
